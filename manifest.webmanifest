@@ -1,0 +1,16 @@
+{
+  "name": "Offline PDF",
+  "short_name": "Offline PDF",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f3ec",
+  "theme_color": "#f4f3ec",
+  "lang": "de",
+  "description": "Bilder und PDFs lokal in eine kleinere PDF umwandeln.",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

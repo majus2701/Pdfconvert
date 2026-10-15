@@ -1,0 +1,27 @@
+OFFLINE PDF - KURZANLEITUNG
+
+1. Dieses ZIP entpacken.
+2. ALLE enthaltenen Dateien direkt in das Hauptverzeichnis deines GitHub-Repos hochladen. Nicht das ZIP selbst hochladen. index.html darf nicht in einem Unterordner liegen.
+3. Im Repo: Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Warten, bis GitHub die veroeffentlichte Pages-Adresse anzeigt. Diese Adresse in Safari oeffnen, nicht die Datei im GitHub-Quellcode.
+5. Auf Offline bereit warten. Teilen > Zum Home-Bildschirm. Falls angeboten: Als Web-App oeffnen aktivieren.
+6. Die neue App einmal online vom Home-Bildschirm aus oeffnen. Wieder auf Offline bereit warten.
+7. Flugmodus an, WLAN aus; die App neu oeffnen und testen.
+
+Bilder und PDFs bleiben bei der Verarbeitung auf deinem Geraet. Der Hoster liefert nur den App-Code aus.
+Bestehende PDFs werden als Bilder neu aufgebaut. Suchtext, Links, Formulare und digitale Signaturen werden nicht uebernommen. Originaldateien bleiben unveraendert.
+Zielgroesse: standardmaessig unter 5 MB. Lesbarkeit nach starker Verkleinerung pruefen. Eine unerreichbare Zielgroesse wird deutlich gemeldet.
+Auf einem echten iPhone wurde die App hier nicht getestet.
+
+Die separat heruntergeladene HTML-Datei ist fuer einen Computer-Browser gedacht. Die Dateien-Vorschau auf dem iPhone ist kein verlaesslicher Startweg.
+
+Dateien:
+index.html - komplette App samt PDF-Bibliothek
+sw.js - Offline-Funktion
+manifest.webmanifest - Home-Bildschirm-App
+icon-192.png und icon-512.png - App-Symbole
+.nojekyll - GitHub-Pages-Einstellung (eventuell ausgeblendet)
+LIZENZEN.txt - erforderliche Lizenztexte
+START-HIER.txt - diese Anleitung
+
+Keine Installation von npm und kein Build erforderlich.
